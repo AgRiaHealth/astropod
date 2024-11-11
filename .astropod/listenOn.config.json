@@ -1,12 +1,12 @@
 {
-  "spotify": "",
-  "googlePodcast": "",
-  "applePodcast": "",
-  "easyPodcast": "",
   "amazonMusic": "",
-  "fountain": "",
-  "ivoox": "",
-  "pocketcasts": "",
+  "easyPodcast": "",
   "deezer": "",
-  "acastPodcasts": ""
+  "applePodcast": "",
+  "ivoox": "",
+  "googlePodcast": "",
+  "acastPodcasts": "",
+  "fountain": "",
+  "spotify": "podcasters.spotify.com/pod/show/",
+  "pocketcasts": ""
 }
