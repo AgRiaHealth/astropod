@@ -1,6 +1,6 @@
 ---
 import listenOn from "../../../.astropod/listenOn.config.json";
-import GooglePodcastIcon from "../icons/googlePodcastIcon.astro";
+import YoutubePodcastIcon from "../icons/youtubePodcastIcon.astro";
 import SpotifyIcon from "../icons/spotifyIcon.astro";
 import ApplePodcastIcon from "../icons/applePodcastIcon.astro";
 import HeadphoneIcon from "../icons/headphoneIcon.astro";
@@ -29,7 +29,7 @@ for (const key in listenOn) {
       <span class="hidden md:inline-block">Listen on</span>
     </label>
     <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-      {listenOn.googlePodcast && (<li><a href={listenOn.googlePodcast}><GooglePodcastIcon />Google Podcast</a></li>)}
+      {listenOn.youtubePodcast && (<li><a href={listenOn.youtubePodcast}><YoutubePodcastIcon />Youtube Podcast</a></li>)}
       {listenOn.applePodcast && (<li><a href={listenOn.applePodcast}><ApplePodcastIcon />Apple Podcast</a></li>)}
       {listenOn.spotify && (<li><a href={listenOn.spotify}><SpotifyIcon />Spotify</a></li>)}
       {listenOn.easyPodcast && (<li><a href={listenOn.easyPodcast}><EasyPodcastIcon />Easy Podcast</a></li>)}
